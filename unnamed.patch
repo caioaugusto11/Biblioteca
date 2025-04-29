@@ -1,0 +1,17 @@
+Index: src/Autor.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Autor.java b/src/Autor.java
+--- a/src/Autor.java
++++ b/src/Autor.java	(date 1745970192497)
+@@ -31,6 +31,8 @@
+         this.dataNascimento = dataNascimento;
+     }
+ 
++    
++
+     public String toString() {
+         return "Autor{" +
+                 "id=" + id +
